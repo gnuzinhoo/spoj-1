@@ -1,0 +1,75 @@
+SPOJ Problem Set (sulamericana)
+3596. Camadas de cebola
+Problema: CEBOLA 
+
+
+Dr. Kabal, um reconhecido biólogo, recentemente descobriu um líquido que é capaz de curar as mais avançadas doenças. O líquido é extraído de uma cebola muito rara que pode ser encontrada em um país chamado Cebolândia. Mas nem todas cebolas de Cebolândia são apropriadas para se levar ao laboratório para processamento. Somente cebolas com um numero ímpar de camadas contém o líquido milagroso. Isto é uma descoberta ímpar! 
+
+ 
+
+Figura 1: Cebola de Cebolândia 
+Dr. Kabal contratou muitos assistentes de pesquisa para coletar e analisar cebolas para ele. Como ele não quer compartilhar sua descoberta com o mundo ainda, ele não disse para os assistentes procurarem por cebolas com um numero ímpar de camadas. Ao invés disso, a cada assistente foi dada a tarefa de coletar cebolas, e selecionar pontos de cada uma das beiradas da camada mais externa, isso dá uma aproximação da estrutura de camadas da cebola que pode ser reconstruída depois. Dr. Kabal disse aos assistentes que o próximo passo seria a "análise complicada" desses pontos. De fato, tudo que eles farão é usar os pontos para contar o número de camadas em cada uma das cebolas, e selecionar aquelas com um numero ímpar de camadas. 
+
+ 
+
+Figura 2: pontos coletados por um assistente 
+É claro que a aproximação obtida por Dr. Kabal, dos pontos coletados, pode ter uma aparência diferente da cebola original. Por exemplo, somente alguns pontos da cebola mostrada na figura 1 podem ser extraídos no processo, dando origem a um conjunto de pontos como mostrado na figura 2. Com estes pontos Dr. Kabal tentará aproximar as camadas originais da cebola, obtendo algo como mostrado na figura 3. O procedimento de aproximação seguido pelo Dr. Kabal (cujo resultado é mostrado na figura 3) é simplesmente recursivamente encontrar polígonos convexos aninhados tais que no fim todo ponto pertencerá a um dos polígonos. Os assistentes foram informados para selecionar pontos de tal forma que o número de camadas na aproximação, se feita desta forma recursiva, seja o mesmo que na cebola original, o que é bom para o Dr. Kabal. Os assistentes também estão cientes de que eles precisam de pelo menos três pontos para aproximar uma camada, mesmo as internas. 
+
+ 
+
+Figura 3: aproximação do Dr. Kabal 
+Sua tarefa é escrever um programa que, dado o conjunto de pontos coletado pelo assistente (como mostrado na figura 2), determine se a respectiva cebola pode ser levada para o laboratório. 
+
+Entrada 
+A entrada contém vários casos de teste. Cada caso de teste consiste de um inteiro 3 <= N <= 2000 em uma linha simples, indicando o numero de pontos coletados pelo assistente. A seguir, haverão N linhas, cada uma contendo dois inteiros -2000<=X,Y<=2000 correspondendo às coordenadas de cada ponto. A entrada terminará com N=0, que não deve ser processado. 
+
+Saída 
+Deverá haver uma linha de saída para cada caso de teste na entrada. Para cada caso de teste imprima a string 
+
+Take this onion to the lab! 
+
+se a cebola deve ser levada para o laboratório ou 
+
+Do not take this onion to the lab! 
+
+se a cebola não deve ser levada para o laboratório. 
+
+Exemplo de entrada 
+7 
+0 0
+0 8
+1 6
+3 1
+6 6
+8 0
+8 8
+11
+2 6
+3 2
+6 6
+0 0
+0 11
+1 1
+1 9
+7 1
+7 9
+8 10
+8 0
+0
+
+Exemplo de saída
+Do not take this onion to the lab! 
+Take this onion to the lab!
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-12-27 
+Tempo limite: 2s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Final Sul-Americana da Maratona de Programação da ACM 2006 
+
+fonte:http://br.spoj.com/problems/CEBOLA/ 

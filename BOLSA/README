@@ -1,0 +1,74 @@
+SPOJ Problem Set (seletivas)
+2841. Bolsa de Valores
+Problema: BOLSA 
+
+Autor: Tiago Mota 
+
+Na bolsa de valores da capital de Pindorama são negociadas, diariamente, várias ações de diversas empresas daquela nação.
+
+Para facilitar as negociações, há um sistema que registra as intenções de compra e venda de ações, com seus respectivos valores. Assim, quando alguém deseja comprar ou vender uma ação de alguma empresa, basta informar ao sistema o quanto pretende pagar ou receber por aquela ação.
+
+Ao registrar um novo pedido de compra, o sistema verifica se o valor de compra é maior ou igual ao valor de venda de alguma ação registrada (para venda) no sistema. Caso seja, é debitado o valor de compra da conta do investidor que deseja comprar, é creditado o valor de venda na conta do investidor que deseja vender, e a diferença é repassada à bolsa de valores. O mesmo ocorre no registro de um novo pedido de venda, caso o valor de venda seja menor ou igual ao valor de compra de alguma ação registrada (para compra) no sistema. Caso haja mais de uma possibilidade de realização de compra ou venda, escolhe-se a proposta cujo valor aumenta a diferença que será repassada à bolsa de valores.
+
+O sistema tem registrado, por exemplo, para ações de uma determinada empresa, as seguintes propostas de compra e venda:
+
+Investidor Tipo Valor (em P$) 
+A Compra 2,00 
+B Compra 3,00 
+C Venda 3,50 
+D Venda 4,00 
+
+Como pode-se observar, não há como realizar negócios com as propostas acima, uma vez que não há nenhum valor de compra maior ou igual a nenhum valor de venda.
+
+No entanto, caso o sistema receba uma proposta de venda do investidor E no valor de P$ 2,50, pode-se realizar a compra e venda de ação com o investidor B. Nesse caso, é debitado o valor de P$ 3,00 da conta do investidor B, é creditado o valor de P$ 2,50 na conta do investidor E, e é repassado à bolsa o valor de P$ 0,50, correspondente à diferença entre os valores de compra e venda.
+
+Após isso, caso o sistema receba, por exemplo, uma proposta de compra do investidor F no valor de P$ 4,50, tem-se a opção de realizar a compra e venda de ação tanto com o investidor C quanto com o investidor D. Nesse caso, o sistema opta pelo investidor C, já que este negócio gera uma diferença de P$ 1,00 a ser repassada à bolsa de valores, ao contrário do valor de P$ 0,50 que seria obtido caso a compra e venda de ação fosse dada com o investidor D.
+
+O sistema, porém, não contabiliza os repasses de diferenças à bolsa de valores, o que é feito, atualmente, de forma manual. Uma vez que o volume de operações da bolsa tem crescido preocupantemente, é pedido que você faça um programa que, dadas as propostas de compra e venda registradas no sistema durante o dia, calcule o valor total recebido pela bolsa de valores através dos repasses de diferenças.
+
+Entrada
+A entrada contém vários casos de teste. Cada caso de teste é composto por uma lista de propostas de compra e venda de ações de uma determinada empresa em um certo dia, na ordem em que foram registradas no sistema.
+
+A primeira linha da entrada de um caso de teste contém, apenas, o número inteiro n (1 <= n <= 50000), informando a quantidade de propostas de compra e venda de ações processadas pelo sistema naquele dia. A seguir, há n linhas, cada uma composta por uma letra, um espaço e um valor, nesta ordem. Caso a letra seja um C, a linha corresponde a uma proposta de compra. Caso contrário, a letra é um V, de modo que a linha corresponde a uma proposta de venda. Em ambos os casos, o valor v (0,00 < v <= 400,00) é dado com exatamente duas casas decimais, separadas por um ponto (.) da parte inteira, e indica o valor, em P$, da proposta de compra ou venda da ação.
+
+A entrada termina quando n = 0.
+
+Saída
+Para cada caso de teste, seu programa deve imprimir, em uma única linha, o valor total, em P$, recebido pela bolsa de valores através dos repasses de diferenças nas negociações de compra e venda de ações dadas na entrada. Você deve assumir que, antes das propostas dadas na entrada, não havia registros de propostas no sistema.
+
+Exemplo
+Entrada:
+6
+C 2.00
+C 3.00
+V 3.50
+V 4.00
+V 2.50
+C 4.50
+3
+C 5.00
+V 4.00
+V 2.00
+3
+V 4.00
+V 2.00
+C 5.00
+0
+
+Saída:
+1.50
+1.00
+3.00
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-07-08 
+Tempo limite: 3s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Segunda prova de TEP - 2008/1 - UFRJ 
+
+fonte: http://br.spoj.com/problems/BOLSA/

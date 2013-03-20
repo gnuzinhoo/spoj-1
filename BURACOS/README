@@ -1,0 +1,67 @@
+SPOJ Problem Set (seletiva_ioi)
+2612. Buracos de Minhoca
+Problema: BURACOS 
+
+
+Os chamados buracos de minhoca (em inglês, worm holes) são ligações entre dois pontos do espaço que permitem que um corpo desloque-se de um ponto ao outro instantamente. Embora atualmente sejam apenas parte de uma teoria, acredita-se que no futuro viajaremos através do espaç¸o rapidamente utilizando buracos de minhoca.
+
+O principal problema tecnológico a ser resolvido na construção de um buraco de minhoca é a enorme quantidade de energia envolvida. Uma dificuldade adicional é´ que buracos de minhoca são unidirecionais. Ou seja, um buraco que leve do ponto A ao ponto B não pode ser utilizado para ir do ponto B ao ponto A.
+
+A Unicomp tem um projeto de pesquisa com o objetivo de investigar o uso de buracos de minhoca para o transporte de passageiros. O grupo de pesquisa projetou um mapa de buracos de minhoca interligando os planetas de nossa galáxia.
+
+Tarefa
+Escreva um programa que, dado um mapa de buracos de minhoca interligando os planetas, determine se é possível, a partir de qualquer um dos planetas, viajar, através de buracos de minhoca, até qualquer outro planeta.
+
+Entrada
+A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de teste contém dois números inteiros P e B, representando respectivamente o número de planetas (1 <= P <= 3000) e o número de buracos de minhocas do mapa (1 <= B <= 150000). Os planetas são identificados por números de 1 a P . Cada uma das B linhas seguintes conté´m dois inteiros X e Y , separados por espaço em branco, representando a existência de um buraco de minhoca que permite ir do planeta X para o planeta Y (1 <= X <= P , 1 <= Y <= P e X != Y ). O final da entrada é indicado por P = B = 0.
+
+Saída
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira linha deve conter um identificador do conjunto de teste, no formato ‘Teste n’, onde n é numerado seqüencialmente a partir de 1. A segunda linha deve conter uma unica letra: ‘S’ se é possível viajar de qualquer planeta para qualquer outro planeta, ou ‘N’ caso contrário. A terceira linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.
+
+Exemplo
+Entrada:
+3 4
+1 2
+3 2
+1 3
+2 3
+3 4
+2 3
+3 2
+1 2
+3 1
+0 0
+
+Saída:
+Teste 1
+N
+
+Teste 2
+S
+
+
+ 
+
+
+Restrições
+
+
+1 <= P <= 3000 (P = 0 para indicar final da entrada)
+1 <= B <= 150000 (B = 0 para indicar o final da entrada)
+1 <= X <= P
+1 <= Y <= P
+X != Y
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-04-02 
+Tempo limite: 1s-3s 
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Olimpíada Brasileira de Informática 2005 -- Seletiva 1 
+
+
+http://br.spoj.com/problems/BURACOS/

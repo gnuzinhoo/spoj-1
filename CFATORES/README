@@ -1,0 +1,55 @@
+SPOJ Problem Set (seletivas)
+1850. Conte os Fatores
+Problema: CFATORES 
+
+
+Escreva um programa que computa o número de diferentes fatores primos de um inteiro positivo. 
+
+Entrada
+A entrada consistirá de uma série de inteiros positivos. Cada linha possui somente um número. O valor máximo de um número é 1000000. O fim da entrada é indicado por um número igual a 0. Esse número não deve ser considerado como parte do conjunto de teste. 
+
+Saída
+O programa deve imprimir cada resultado em uma linha diferente, seguindo o formado dado no exemplo de saída. 
+
+Exemplo
+Entada:
+289384
+930887
+692778
+636916
+747794
+238336
+885387
+760493
+516650
+641422
+0
+
+Saída:
+289384 : 3
+930887 : 2
+692778 : 5
+636916 : 4
+747794 : 3
+238336 : 3
+885387 : 2
+760493 : 2
+516650 : 3
+641422 : 3
+
+
+
+
+Autor do Problema: David Déharbe 
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2007-10-05 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Segunda Seletiva para Maratona de Programacao UFRN - 2004 
+
+
+fonte: http://br.spoj.com/problems/CFATORES/

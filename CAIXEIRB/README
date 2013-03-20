@@ -1,0 +1,78 @@
+SPOJ Problem Set (seletiva_ioi)
+2616. Caixeiro-Viajante B
+Problema: CAIXEIRB 
+
+
+Asdrúbal é um caixeiro viajante (essa profissão é antiga, e designa uma pessoa que trabalha com vendas e percorre as cidades atendendo clientes).
+
+Asdrúbal viaja somente de trem; a malha ferroviária é composta por um conjunto de trechos de linhas de trem. Um trecho de linha liga uma diretamente uma cidade A a uma cidade B, sem passar por outra cidade, conforme mostrado abaixo.
+
+B
+|
+|
+C----D----E
+|
+|
+A
+
+Um trajeto é formado por uma seqüêcia de trechos consecutivos ligando duas cidades. A malha ferroviária é construída de tal forma que entre qualquer par de cidades existe apenas um trajeto possível, e a partir de uma cidade é possível viajar para qualquer outra cidade.
+
+A empresa fornece a Asdrúbal tíquetes de transporte que lhe permitem viajar por toda a malha ferroviária. Asdrúbal gasta um tíquete a cada trecho do trajeto viagem, independente do comprimento do trecho. Assim, considerando o mapa acima, para ir da cidade A para a cidade E Asdrúbal gasta três tíquetes.
+
+A empresa entregou a Asdrúbal a lista com as cidades em que ela possui clientes que ele deve visitar. Asdrúbal deve partir da cidade onde mora e retornar, ao final da viagem, para a mesma cidade. Ele pode visitar as cidades determinadas pela empresa em qualquer ordem, mas com uma restrição importante: ele deve gastar o menor número possível de tíquetes de viagem.
+
+Tarefa
+Dada a descrição da malha ferroviária (cidades e trechos de linhas de trem) e uma lista de cidades que devem ser visitadas, você deve escrever um programa para determinar qual o menor número de tíquetes necessários para Asdrúbal efetuar a viagem.
+
+Entrada
+A entrada é composta de vários conjuntos de testes. A primeira linha de um conjunto de testes contém dois inteiros C e V , separados por um espaço em branco, que indicam respectivamente o número de cidades na malha ferroviária (1 <= C <= 300) e o número de cidades que devem ser visitadas (1 <= V <= C). As cidades são identificadas por inteiros entre 1 e C; a cidade em que Asdrúbal reside é sempre identificada pelo número 1. Cada uma das C - 1 linhas seguintes contém dois inteiros X e Y, separados por um espaço em branco, indicando que há um trecho de linha férrea inteligando as cidades X e Y, sem passar por outra cidade (1 <= X <= C, 1 <= Y <= C e X != Y). Note que uma ligação entre X e Y permite o trajeto de X para Y e de Y para X. A última linha de um conjunto de testes contém uma seqüência de V inteiros, separados por espaço em branco, indicando as cidades que possuem clientes que Asdrúbal deve visitar. O final da entrada é indicado por C = V = 0.
+
+Saída
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira linha deve conter um identificador do conjunto de teste, no formato ‘Teste n’, onde n é numerado seqüencialmente a partir de 1. A segunda linha deve conter um número inteiro indicando o número míinimo de tíquetes que Asdrúbal gasta na viagem. A terceira linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.
+
+Exemplo
+Entrada:
+4 3
+2 3
+4 2
+2 1
+4 3 1
+5 5
+1 2
+1 3
+1 4
+1 5
+1 2 3 4 5
+0 0
+
+Saída:
+Teste 1
+6
+
+Teste 2
+8
+
+
+ 
+
+Restrições
+
+1 <= C <= 300 (C = 0 para indicar final da entrada)
+1 <= V <= C (V = 0 para indicar o final da entrada)
+1 <= X <= C
+1 <= Y <= C
+X != Y
+
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-04-04 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Olimpíada Brasileira de Informática 2005 -- Seletiva 2 
+
+http://br.spoj.com/problems/CAIXEIRB/

@@ -1,0 +1,51 @@
+SPOJ Problem Set (obi)
+8777. Cometa
+Problema: COMETA2 
+
+
+
+O cometa Halley é um dos cometas de menor período do Sistema Solar, completando uma volta em torno do Sol a cada 76 anos; na última ocasião em que ele tornou-se visível do planeta Terra, em 1986, várias agências espaciais enviaram sondas para coletar amostras de sua cauda e assim confirmar teorias sobre suas composições químicas. 
+
+Tarefa
+Escreva um programa que, dado o ano atual, determina qual o próximo ano em que o cometa Halley será visível novamente do planeta Terra. Se o ano atual é um ano de passagem do cometa, considere que o cometa já passou nesse ano (ou seja, considere sempre o próximo ano de passagem, não considerando o ano atual).
+
+Entrada
+A única linha da entrada contém um único inteiro A (2010 = A = 104), indicando o ano atual.
+
+Saída
+Seu programa deve imprimir uma única linha, contendo um número inteiro, indicando o próximo ano em que o cometa Halley será visível novamente do planeta Terra.
+
+Exemplo
+Entrada
+2010
+
+Saída
+2062
+
+Entrada
+10000
+
+Saída
+10042
+
+Entrada
+2062
+
+Saída
+2138
+
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2011-04-28 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: OBI 2010 - fase 1 nível 2 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/COMETA2/

@@ -1,0 +1,48 @@
+SPOJ Problem Set (seletivas)
+1821. O Bolo de Apostas
+Problema: BAPOSTAS 
+
+
+Manuel quer ficar rico rápido e sem muito esforço, então ele decidiu fazer carreira apostando. Inicialmente, ele planeja estudar os ganhos e as perdas de jogadores, de modo que ele possa identificar padrões de vitórias consecutivas e elaborar uma estratégia que seja sempre vencedora. Contudo, Manuel, tão esperto como ele acha que é, não sabe como programar computadores, de modo que ele contratou você para escrever programas que irão auxiliá-lo a elaborar a estratégia dele. 
+
+Sua primeira tarefa é escrever um programa que identifica o máximo ganho possível de uma seqüência de apostas. Uma aposta é uma quantia de dinheiro e é ou vencedora (e isto é registrado como um valor positivo), ou perdedora (e isto é registrado como um valor negativo). 
+
+Entrada
+Um conjunto de entrada consiste de um inteiro positivo N = 10000, que indica o tamanho da seqüência, seguido por N inteiros. Cada aposta é um inteiro maior ou igual a 0 e menor ou igual a 1000. 
+
+A entrada é terminada por N = 0. 
+
+Saída
+Para cada conjunto de entrada, a saída deverá mostrar uma linha com a solução correspondente. Se a seqüência de entrada não apresenta possibilidade de ganhar dinheiro, então a saída é a mensagem "Losing streak.". 
+
+Exemplo
+Entrada:
+5
+12 -4 
+-10 4 
+9
+3
+-2 -1 -2
+0
+
+Saída:
+The maximum winning streak is 13.
+Losing streak.
+
+
+
+
+Autor do Problema: David Déharbe 
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2007-09-28 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Primeira Seletiva para Maratona de Programacao UFRN - 2004 
+
+fonte: http://br.spoj.com/problems/BAPOSTAS/
