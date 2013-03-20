@@ -1,0 +1,67 @@
+SPOJ Problem Set (sulamericana)
+3741. Eletricidade
+Problema: ELETRICI 
+
+
+Martin e Isa pararam de jogar jogos loucos e finalmente se casaram. Ótimas notícias! Eles estão vivendo uma nova vida de felicidade para ambos e, também, estão se mudando para uma nova casa em um lugar remoto, comprado com a maior parte de suas economias.
+
+A vida é diferente nesse novo lugar. Particularmente, a energia elétrica é muito cara, e eles querem manter tudo sob controle. Por isso Martin propôs que mantivessem um histórico diário de quanta eletricidade foi consumida na casa. Eles têm um marcador de eletricidade, que mostra um número com a quantidade de KWh (kilowatts-hora) que foi consumida desde sua chegada.
+
+No começo de cada dia eles consultam o marcador de eletricidade, e anotam o consumo. Alguns dias Martin faz isso, em outros é a Isa quem faz. Desse jeito, eles conseguirão observar as diferenças de consumo entre dias consecutivos e saber quanto foi gasto.
+
+Mas alguns dias eles simplesmente esqueceram de anotar, então, depois de muito tempo, o histórico está incompleto. Eles têm uma lista de datas e consumos, mas nem todas datas são consecutivas. Eles só querem levar em conta os dias para os quais o consumo pode ser determinado precisamente, e precisam de ajuda.
+
+Entrada
+A entrada contém diversos casos de teste. A primeira linha de um caso de teste contém um inteiro N indicando o número de medições que eles fizeram (2 <= N <= 103). Cada uma das N linhas seguintes contém quatro inteiros D, M, Y e C, separados por espaços, indicando respectivamente o dia (1 <= D <= 31), mês (1 <= M <= 12), ano (1900 <= Y <= 2100), e consumo (0 <= C <= 106) lidos no início de cada dia. Essas N linhas são ordenadas em ordem crescente pela data e podem incluir anos bissextos. A seqüência de consumos é estritamente crescente (isto é, duas leituras sempre têm valores diferentes). Você pode assumir que D, M e Y representam datas válidas.
+
+Lembre-se que um ano é bissexto se ele é divisível por 4 e não por 100, ou então, se o ano é divisível por 400.
+
+O final da entrada é indicado por uma linha contendo apenas um zero.
+
+Saída
+Para cada caso de teste na entrada, seu programa deve imprimir uma única linha contendo dois inteiros separados por um único espaço: o número de dias para os quais o consumo pode ser determinado precisamente e o consumo desses dias.
+
+
+Exemplo de entrada
+5
+9 9 1979 440
+29 10 1979 458
+30 10 1979 470
+1 11 1979 480
+2 11 1979 483
+3
+5 5 2000 6780
+6 5 2001 7795
+7 5 2002 8201
+8
+28 2 1978 112
+1 3 1978 113
+28 2 1980 220
+1 3 1980 221
+5 11 1980 500
+14 11 2008 600
+15 11 2008 790
+16 12 2008 810
+0
+
+Saída para o exemplo de entrada
+2 15
+0 0
+2 191
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2009-01-18 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Final Sul-Americana da Maratona de Programação da ACM 2008 
+
+--------------------------------------------------------------------------------
+
+
+
+fonte: http://br.spoj.com/problems/ELETRICI/

@@ -1,0 +1,80 @@
+SPOJ Problem Set (seletiva_ioi)
+832. Dominó
+Problema: DOMINO 
+
+
+Um jogo padrão de peças de dominó contém 28 peças, cada uma mostrando dois números de 0 (branco) a 6, com a representação de pontos utilizada normalmente em dados. As 28 peças, que são únicas, consistem das seguintes combinações de números: 
+
+Peça Valores  Peça Valores  Peça Valores Peça Valores
+1    0  | 0   8    1 | 1    15   2 | 3    22   3 | 6
+2    0  | 1   9    1 | 2    16   2 | 4    23   4 | 4
+3    0  | 2   10   1 | 3    17   2 | 5    24   4 | 5
+4    0  | 3   11   1 | 4    18   2 | 6    25   4 | 6
+5    0  | 4   12   1 | 5    19   3 | 3    26   5 | 5
+6    0  | 5   13   1 | 6    20   3 | 4    27   5 | 6
+7    0  | 6   14   2 | 2    21   3 | 5    28   6 | 6
+
+Utilizando todas as peças de um jogo é possível montar uma matriz de 7 x 8 valores. Cada uma dessas matrizes corresponde a pelo menos um mapa de dominós. Um mapa consiste de uma matriz 7 x 8 onde os valores são substituídos pelo identificador da peça contendo aqueles valores. Um exemplo de matriz e o mapa correspondente é mostrado abaixo. 
+
+  Matriz de valores              Mapa de peças
+6  6  2  6  5  2  4  1    28  28  14  7  17  17  11  11
+1  3  2  0  1  0  3  4    10  10  14  7   2   2  21  23
+1  3  2  4  6  6  5  4     8   4  16 25  25  13  21  23
+1  0  4  3  2  1  1  2     8   4  16 15  15  13   9   9
+5  1  3  6  0  4  5  5    12  12  22 22   5   5  26  26
+5  5  4  0  2  6  0  3    27  24  24  3   3  18   1  19
+6  0  5  3  4  2  0  3    27   6   6 20  20  18   1  19
+
+Tarefa
+Escreva um programa que analise uma matriz de números e verifique de quantas maneiras ela pode ser montada utilizando um jogo completo de peças de dominó (note que é possível que a matriz não represente um arranjo possível das peças). 
+
+Entrada
+A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de teste contém um inteiro N que indica o número de conjuntos de teste. Cada conjunto de teste consiste de sete linhas com oito inteiros D (entre 0 e 6) cada, representando o padrão observado de valores. Não há linhas separando os conjuntos de teste. 
+
+Saída
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado a partir de 1. Na segunda linha devem aparecer o número de mapas correspondentes à matriz dada, conforme determinado pelo seu programa. A terceira linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente. 
+
+Exemplo
+Entrada:
+2
+5 4 3 6 5 3 4 6
+0 6 0 1 2 3 1 1
+3 2 6 5 0 4 2 0
+5 3 6 2 3 2 0 6
+4 0 4 1 0 0 4 1
+5 2 2 4 4 1 6 5
+5 5 3 6 1 2 3 1
+4 2 5 2 6 3 5 4
+5 0 4 3 1 4 1 1
+1 2 3 0 2 2 2 2
+1 4 0 1 3 5 6 5
+4 0 6 0 3 6 6 5
+4 0 1 6 4 0 3 0
+6 5 3 6 2 1 5 3
+
+Saída:
+Teste 1
+1
+
+Teste 2
+2
+
+Restrições
+1 = N = 50
+0 = D = 6 
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2006-04-29 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Olimpiada Brasileira de Informatica 2002 - Seletiva 
+
+--------------------------------------------------------------------------------
+
+
+fonte: http://br.spoj.com/problems/DOMINO/
