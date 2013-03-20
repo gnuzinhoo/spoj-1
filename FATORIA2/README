@@ -1,0 +1,46 @@
+SPOJ Problem Set (obi)
+3774. Fatorial
+Problema: FATORIA2 
+
+
+Dado um inteiro N, determine quanto vale N fatorial (escreve-se N!). O fatorial de um número é o produto de todos os números entre 1 e N, inclusive. Por exemplo, 5! = 5 × 4 × 3 × 2 × 1 = 120.
+
+Entrada
+A entrada é composta por uma única linha que contém o inteiro N.
+
+Saída
+A saída deve consistir de apenas uma linha contendo o valor de N!.
+
+Restrições
+0 = N = 12 
+Exemplo
+Entrada
+
+2
+
+Saída
+
+2
+
+Entrada
+
+3
+
+Saída
+
+6
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2009-01-26 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Treino para OBI de 2006 - Fábio Moreira & Daniel Fleischman 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/FATORIA2/

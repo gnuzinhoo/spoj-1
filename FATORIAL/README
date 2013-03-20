@@ -1,0 +1,42 @@
+SPOJ Problem Set (seletivas)
+1752. Fatorial
+Problema: FATORIAL 
+
+
+Joãozinho é um garoto esperto da sexta série. Ele gosta muito de matemática, e descobriu que sua professora é muito preguiçosa. Nas provas da matéria a professora pede que as crianças circulem a resposta com um quadrado colorido, e que façam o primeiro dígito diferente de zero (da direita para esquerda) do número especialmente grande com caneta. Joãozinho desconfiou que a professora olhava apenas para aquele dígito para corrigir a questão. 
+
+A turma aprendeu a calcular o fatorial de um número, e isso será cobrado na próxima prova. Joãozinho está convencido de que não precisa escrever de fato o número correto, desde que o primeiro dígito (olhando da direita para esquerda) seja o correto. Sua tarefa neste problema é ajudar Joãozinho a calcular para um número inteiro n da entrada, o primeiro dígito (da direita para esquerda) de n! que seja diferente de zero. 
+
+Entrada
+A entrada é composta de diversas instâncias. A primeira linha de cada instância consiste um inteiro n (1 <= n <= 1000000). 
+
+A entrada termina com final de arquivo. 
+
+Saída
+Para cada instância, você deverá imprimir um identificador Instancia k, onde k é o número da instância atual. Na linha seguinte imprima o primeiro dígito (da direita para esquerda) diferente de zero. 
+
+Após cada instância imprima uma linha em branco. 
+
+Exemplo
+Entrada:
+5
+
+Saída:
+Instancia 1
+2
+
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2007-08-28 
+Tempo limite: 16s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Seletiva para Maratona de Programação do IME - 2007 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/FATORIAL/
