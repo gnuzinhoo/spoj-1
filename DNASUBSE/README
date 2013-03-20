@@ -1,0 +1,54 @@
+SPOJ Problem Set (sulamericana)
+3740. Sequências de DNA
+Problema: DNASUBSE 
+
+
+Thomas, um cientista da computação que trabalha com seqüências de DNA, precisa computar as maiores subseqüências comuns de dados pares de strings. Considere um alfabeto S de letras e uma palavra w = a1a2· · ·ar, onde ai ? S, para i = 1, 2, . . ., r. Uma subseqüencia de w é uma palavra x = ai1ai2...ais tal que 1 <= i1 < i2 < . . . < is <= r. A subseqüência x é um segmento de w se ij+1 = ij + 1, para j = 1, 2, . . ., s - 1. Por exemplo a palavra ove é um segmento da palavra lovely, enquanto a palavra loly é uma subseqüência de lovely, mas não um segmento.
+
+Uma palavra é uma subseqüência comum de duas palavras w1 e w2 se ela é uma subseqüência de cada uma das duas. Uma maior subseqüência comum de w1 e w2 uma subsqüência comum de w1 e w2 tendo o maior comprimento possível. Por exemplo, considere as palavras w1 = lovxxelyxxxxx e w2 = xxxxxxxlovely. As palavras w3 = lovely e w4 = xxxxxxx, a última de comprimento 7, são ambas subseqüências comuns de w1 e w2. De fato, w4 é a maior subseqüência comum delas. Perceba que a palavra vazia, de comprimento zero, é sempre uma subseqüência comum, apesar não ser necessariamente a mais longa.
+
+No caso do Thomas, existe um requerimento extra: a subseqüência tem que ser formada de segmentos comuns tendo comprimento K ou maior. Por exemplo, se Thomas decidir que K = 3, então ele considera lovely como uma subseqüência comum aceitável de lovxxelyxxxxx e xxxxxxxlovely, enquanto xxxxxxx, que tem um comprimento de 7 e também é uma subseqüência comum, não é aceitável. Você pode ajudar Thomas?
+
+Entrada
+A entrada consiste de vários casos de teste. A primeira linha de um caso de teste contém um inteiro K representando o comprimento mínimo de segmentos comuns, onde 1 <= K <= 100. As próximas duas linhas contém, em cada, uma palavra com letras minúsculas do alfabeto tradicional de 26 letras. O comprimento L de cada palavra satisfaz a desigualdade 1 <= L <= 10^3. Não existem espaços nas linhas de entrada. O final da entrada é indicado por uma linha contendo um zero.
+
+Saída
+Para cada caso de teste na entrada, seu programa deve imprimir uma única linha, contendo o comprimento da maior subseqüência formada por segmentos consecutivos de comprimento de pelo menos K de ambas palavras. Se não existir uma subseqüência comum de comprimento maior que zero, então deve ser imprimido 0.
+
+
+Exemplo de entrada
+3
+lovxxelyxxxxx
+xxxxxxxlovely
+1
+lovxxelyxxxxx
+xxxxxxxlovely
+3
+lovxxxelxyxxxx
+xxxlovelyxxxxxxx
+4
+lovxxxelyxxx
+xxxxxxlovely
+0
+
+Saída para o exemplo de entrada
+6
+7
+10
+0
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2009-01-18 
+Tempo limite: 7s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Final Sul-Americana da Maratona de Programação da ACM 2008 
+
+--------------------------------------------------------------------------------
+
+
+fonte: http://br.spoj.com/problems/DNASUBSE/
