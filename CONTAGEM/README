@@ -1,0 +1,90 @@
+SPOJ Problem Set (seletivas)
+1735. Não é Mais um Joguinho Canadense
+Problema: CONTAGEM 
+
+
+O Canadá é um país muito frio. Em 8 meses por ano as temperaturas praticamente impedem que as ruas sejam ocupadas por vida inteligente, restando apenas criaturas resistentes ao frio como alces, ursos e canadenses (He he he, brincadeirinha...). Nestes longos meses de inverno famílias buscam diversão em frente de suas lareiras (ou, para as mais corajosas, ao redor de suas fogueiras). A família Smith, de Banff, inventou o jogo que descrevemos a seguir. 
+
+A brincadeira começa com uma das crianças desenhando um diagrama com estados (representados por bolinhas) ligados por transições (flechas ligando os estados). Cada transição tem uma letra e um número associados. Podemos fazer diversos passeios neste diagrama, partindo de um estado inicio caminhando por suas transições e terminando em um estado final. Um passeio forma uma palavra (obtida da concatenação das letras das transições percorridas) e tem um custo (que é dado pelo produto dos números destas transições). 
+
+Exemplo. Considere o diagrama abaixo. 
+
+
+   .--- .---. --.
+1b |    | p |   | 1a
+   '->  '---' <-'
+          |
+          | 1b
+          |
+          V
+   .--  .---. --.
+2b |    | q |   | 2a
+   '->  '---' <-'
+
+Todos os passeios iniciam no estado p e terminam em q. 
+
+O passeio que segue pelas transições (p,1a), (p,1a), (p,1b) e termina no estado q forma a palavra aab concatenando as letras de cada transição tem custo 1 (produto dos números destas transições). 
+
+O passeio que segue pelas transições (p,1a), (p,1a), (p,1b), (q,2b) e termina no estado q forma a palavra aabb e tem custo 2. 
+
+O jogo inventado pelo papai Smith era o seguinte. Depois de desenhar um diagrama como esse, um dos membros da família falava uma palavra, e os outros deveriam descobrir a soma dos custos de todos os passeios no diagrama que formam a palavra dada tais que iniciam no estado p e terminam no estado q. No caso do exemplo do diagrama acima, se o Sr. Smith pedisse a palavra aba a resposta deveria ser 2. 
+
+Entrada
+A entrada é composta de diversas palavras (o diagrama é sempre o da figura). Cada instância é dada por uma linha contendo uma palavra. Uma palavra é uma seqüência de letras [a,b] com no máximo 60 letras. 
+
+A entrada termina com final de arquivo. 
+
+Saída
+Para cada instância, você deverá imprimir um identificador Palavra k, onde k é o número da instância atual. Na linha seguinte imprima a soma dos custos. 
+
+Após cada instância imprima uma linha em branco. 
+
+Exemplo
+Entrada:
+a
+b
+ab
+ba
+aaaa
+bbbb
+aabb
+abbb
+
+Saída:
+Palavra 1
+0
+
+Palavra 2
+1
+
+Palavra 3
+1
+
+Palavra 4
+2
+
+Palavra 5
+0
+
+Palavra 6
+15
+
+Palavra 7
+3
+
+Palavra 8
+7
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2007-08-16 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Seletiva para Maratona de Programação do IME - 2007 
+
+
+fonte: http://br.spoj.com/status/CONTAGEM
