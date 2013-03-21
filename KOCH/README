@@ -1,0 +1,47 @@
+SPOJ Problem Set (seletivas)
+3090. Crescimento das populações de bacilos
+Problema: KOCH 
+
+
+Heinrich Hermann Robert Koch foi um médico alemão que viveu de 1843 a 1910 e ficou famoso por ter isolado o bacilo causador da tuberculose. Seus estudos sobre a doença que causava muitas mortes até meados do século XX possibilitaram o desenvolvimento de uma vacina que salvou milhões de vidas por todo o mundo. Robert Koch foi agraciado em 1905 com o prêmio Nobel de Medicina e é considerado um dos pais da Microbiologia.
+
+Um dos estudos de Koch estava ligado com a velocidade de crescimento das populações de bacilos. Koch observou que os bacilos demoram um instante de tempo para atingir a maturidade e iniciar a divisão celular. A partir daí, o bacilo gera um novo indivíduo a cada instante de tempo por meio de uma divisão. Dessa forma, se partirmos de uma população inicial com apenas um indivíduo, no instante seguinte teremos ainda um (ele atinge a maturidade para divisão), no seguinte teremos 2, no outro 3, então 5 e assim por diante.
+
+Sua tarefa é, dado um inteiro K, determinar os três últimos dígitos do número de bacilos após K instantes de tempo, partindo de uma população inicial com um indivíduo.
+
+Entrada
+A primeira linha de um caso de testes contém um inteiro T que indica o número de instâncias subseqüentes. Cada instância é composta por apenas uma linha que contém um inteiro K (1 = K = 10^1000000, ou seja, K pode ter 1000000 de dígitos).
+
+Saída
+Para cada instância imprima uma linha contendo os três últimos dígitos do número de bacilos após K instantes de tempo.
+
+Exemplo de entrada
+5
+1
+4
+10
+21312
+1000000
+
+Exemplo de saída
+001
+003
+055
+744
+875
+
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-10-01 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Primeira Seletiva para Maratona de Programacao IME-USP - 2006 
+
+--------------------------------------------------------------------------------
+fonte: http://br.spoj.com/problems/KOCH/
+
