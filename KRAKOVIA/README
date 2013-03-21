@@ -1,0 +1,48 @@
+SPOJ Problem Set (seletivas)
+2285. Krakóvia
+Problema: KRAKOVIA 
+
+
+Viktor mora em um país longíquo e frio, chamado Krakóvia, que está passando por tempos difíceis. Viktor trabalha em uma fábrica e após um dia de trabalho ele geralmente vai com alguns amigos a um bar, para beber algumas cervejas e sonhar com tempos melhores. 
+
+Devido a alguns problemas econômicos, a inflação está muito alta na Krakóvia e uma cerveja custa 5.400.000.000 dólares krakovianos. Por conta disso, é difícil conferir o valor da conta e dividi-lo igualmente entre Viktor e seus amigos. Como você tem um bom coração, você decidiu ajudá-los a solucionar esse problema. 
+
+Entrada
+Haverá vários casos de teste, cada caso de teste começa com dois números 1 = N = 1000 que é o número de itens na conta e 1 = F = 20 que representa quantos amigos estão no bar e devem pagar a conta. Seguem N linhas, cada linha representa o valor de um item. O valor de um item é indicado por um inteiro 1 = V = 1020. A entrada é terminada por uma conta onde N = F = 0. 
+
+Saída
+Para cada caso de teste você deve imprimir a mensagem: Bill #N costs S: each friend should pay P, onde N representa o número da conta, começando a partir de 1; S indica a soma dos itens da conta; e P é quanto dinheiro cada amigo deve pagar. Você deve calcular este valor dividindo o valor total da conta pelo número de amigos no bar, se o resultado não é um valor inteiro então imprima apenas a parte inteira do resultado, veja o exemplo de entrada/saída. Após cada caso de teste, você deve imprimir uma linha em branco. 
+
+Exemplo
+Entrada:
+3 3
+5400000000
+5400000000
+5400000000
+3 2
+5400000000
+5400000000
+9000000001
+0 0
+
+Saída:
+Bill #1 costs 16200000000: each friend should pay 5400000000
+
+Bill #2 costs 19800000001: each friend should pay 9900000000
+
+
+Autor do Problema: Sérgio Queiroz de Medeiros 
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-01-03 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Primeira Seletiva para Maratona de Programacao UFRN - 2005 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/KRAKOVIA/
+
