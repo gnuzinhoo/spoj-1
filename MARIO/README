@@ -1,0 +1,61 @@
+SPOJ Problem Set (regionais)
+1890. Mário
+Problema: MARIO 
+
+
+Mário é dono de uma empresa de guarda-volumes, a Armários a Custos Moderados (ACM). Mário conquistou sua clientela graças à rapidez no processo de armazenar os volumes. Para isso, ele tem duas técnicas: 
+
+
+Todos os armários estão dispostos numa fila e são numerados com inteiros positivos a partir de 1. Isso permite a Mário economizar tempo na hora de procurar um armário; 
+Todos os armários têm rodinhas, o que lhe dá grande flexibilidade na hora de rearranjar seus armários (naturalmente, quando Mário troca dois armários de posição, ele também troca suas numerações, para que eles continuem numerados seqüencialmente a partir de 1). 
+
+Para alugar armários para um novo cliente, Mário gosta de utilizar armários contíguos, pois no início da locação um novo cliente em geral faz muitas requisições para acessar o conteúdo armazenado, e o fato de os armários estarem contíguos facilita o acesso para o cliente e para Mário. 
+
+Desde que Mário tenha armários livres em quantidade suficiente, ele sempre pode conseguir isso. Por exemplo, se a requisição de um novo cliente necessita de quatro armários, mas apenas os armários de número 1, 3, 5, 6, 8 estiverem disponíveis, Mário pode trocar os armários 5 e 2 e os armários 6 e 4 de posição: assim, ele pode alugar o intervalo de armários de 1 até 4. 
+
+No entanto, para minimizar o tempo de atendimento a um novo cliente, Mário quer fazer o menor número de trocas possível para armazenar cada volume. No exemplo acima, ele poderia simplesmente trocar os armários 1 e 4 de posição, e alugar o intervalo de 3 até 6. 
+
+Mário está muito ocupado com seus clientes e pediu que você fizesse um programa para determinar o número mínimo de trocas necessário para satisfazer o pedido de locação de um novo cliente. 
+
+Entrada
+A entrada contém vários casos de teste. A primeira linha de cada caso de teste contém dois números inteiros N e L (1 = N = L = 100.000), indicando quantos armários são necessários para acomodar o pedido de locação do novo cliente e quantos armários estão disponíveis, res- pectivamente. A linha seguinte contém L números inteiros positivos separados por espaços em branco, nenhum deles maior do que 1.000.000.000, indicando as posições dos armários disponíveis. Os números dos armários livres são dados em ordem crescente. 
+
+O final da entrada é indicado por um caso onde N = L = 0. 
+
+A entrada deve ser lida da entrada padrão. 
+
+Saída
+Para cada caso de teste, imprima uma linha contendo um único número inteiro, indicando o número mínimo de trocas que Mário precisa efetuar para satifazer o pedido do novo cliente (ou seja, ter N armários consecutivos livres). 
+
+A saída deve ser escrita na saída padrão. 
+
+Exemplo
+Entrada:
+5 6
+1 3 4 5 6 8
+5 5
+1 3 5 6 8
+5 6
+1 4 5 6 7 8
+0 0
+
+Saída:
+1
+2
+0
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2007-10-11 
+Tempo limite: 6s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Primeira fase da Maratona de Programação - 2007 
+
+--------------------------------------------------------------------------------
+
+
+fonte: http://br.spoj.com/problems/MARIO/
