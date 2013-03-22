@@ -1,0 +1,50 @@
+SPOJ Problem Set (seletivas)
+1824. Monitorando a Amazônia
+Problema: MONAMAZ 
+
+
+Uma rede de estações de aquisição de dados autônomas, alimentadas por bateria, foi instalada para monitorar o clima na região da Amazônia. Uma estação principal pode iniciar a transmissão de instruções para as estações de controle de modo que elas possam modificar os seus parâmetros correntes. Para evitar um uso excessivo da bateria, cada estação (incluindo a estação principal) somente pode transmitir para duas outras estações. As estações de destino de uma estação são as duas estações mais próximas. Em caso de empate, o primeiro critério é escolher a estação mais a oeste (mais a esquerda no mapa), e o segundo critério é escolher a estação mais a sul (mais abaixo no mapa). 
+
+Você foi contratado pelo Governo do Estado da Região Amazônica para escrever um programa que decide se, dada a localização de cada estação, as mensagens podem alcançar todas as estações. 
+
+Entrada
+A entrada consiste de um inteiro N, seguido por N pares de inteiros Xi, Yi, indicando as coordenadas da localização de cada estação. O primeiro par de coordenadas determina a posição da estação principal, enquanto que os demais N-1 pares são as coordenadas das outras estações. As seguintes restrições são impostas: -20 = Xi, Yi = 20, e 1 = N = 1000. A entrada é terminada com N = 0. 
+
+Saída
+Para cada conjunto de entrada, a saída deverá mostrar uma linha indicando se todas as estações podem ser alcançadas ou não (veja o exemplo de saída para o formato exato). 
+
+Exemplo
+Entrada:
+4
+1 0 0 1 -1 0 0 -1
+8
+1 0 1 1 0 1 -1 1 -1 0 -1 -1 0 -1 1 -1
+6
+0 3 0 4 1 3 -1 3 -1 -4 -2 -5
+0
+
+Saída
+All stations are reachable.
+All stations are reachable.
+There are stations that are unreachable.
+
+
+
+
+
+Autor do Problema: David Déharbe 
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2007-09-28 
+Tempo limite: 2s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Primeira Seletiva para Maratona de Programacao UFRN - 2004 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/MONAMAZ/
