@@ -1,0 +1,45 @@
+SPOJ Problem Set (sulamericana)
+3597. Par ou Ímpar
+Problema: ODDOREVE 
+
+
+Existem muitas versões do Par ou Ímpar, um jogo jogado por competidores para decidir questões aletórias (Tais como "Quem codificará este problema?"). Em uma das versões, para dois jogadores, o jogo inicia com cada jogador dizendo par ou ímpar. Então eles contam até três (algumas pessoas dizem "Um, dois, três, VAI!"). No três, ambos jogadores mostram uma das mãos, mostrando um número de dedos (de zero a cinco). Se a soma dos dedos resulta em um número par, então a pessoa que disse par ganha. Se a soma dos dedos for um número ímpar, então a pessoa que disse ímpar ganha. 
+
+John e Mary jogaram muitas vezes jogos de Par ou Ímpar. Em todos os jogos John escolheu ímpar (e, conseqüentemente, Mary escolheu par). Durante os jogos cada jogador escreveu, em pequenos cartões, quantos dedos ele/ela mostraram, usando uma carta para cada jogo - Mary usou cartões azuis, John usou cartões vermelhos. O objetivo deles era ser capar de re-checar os resultados depois, procurando pelos cartões de cada jogo. Entretanto, no fim do dia John derrubou o deque de cartões, e após terem separados os cartões por cor, eles agora perderam a ordem. 
+
+Dado o conjunto de números escritos nos cartões vermelhos e azuis, você deve escrever um programa para determinar o número mínimo de jogos que Mary certamente ganhou. 
+
+Entrada 
+A entrada contém vários casos de teste. A primeira linha de cada caso de teste contém um inteiro N representando o numero de jogos jogados (1<=N<=100). A segunda linha de um caso de teste contém N inteiros Xi, indicando o numero de dedos mostrados por Mary em cada um dos jogos (0<=Xi =5, para 1<=i<=N). A terceira linha de cada caso de teste contém N inteiros Yi, indicando o número de dedos mostrados por John em cada um dos jogos (0<=Yi<=5, para 1<=i<=N). O fim da entrada é indicado por N=0. 
+
+Saída
+Para cada caso de teste, seu programa deve escrever uma linha, contendo um inteiro, indicando o número mínimo de jogos que Mary certamente ganhou. 
+
+
+Exemplo de entrada
+3
+1 0 4
+3 1 2
+9
+0 2 2 4 2 1 2 0 4
+1 2 3 4 5 0 1 2 3
+0
+
+Exemplo de saída
+0
+3
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-12-27 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Final Sul-Americana da Maratona de Programação da ACM 2006 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/ODDOREVE/
