@@ -1,0 +1,37 @@
+SPOJ Problem Set (sulamericana)
+3743. Pole Position
+Problema: POLEPOS
+
+Em corridas de carros, sempre existe um placar próximo à linha de chegada do percurso. Antes de a corrida começar, o placar é usado para mostrar as posições iniciais. O número do primeiro carro no grid é mostrado no topo do placar, o número do carro no segundo lugar é mostrado abaixo dele, e assim por diante.
+
+Durante a corrida, o placar é usado para mostrar a posição atual de cada carro: o carro que está ganhando a corrida tem seu número mostrado no topo do placar, seguido pelo carro que está na segunda posição, e assim por diante.
+
+Fora o fato de mostrar a posição atual de um carro, o placar também é usado para mostrar o número de posições que os carros ganharam ou perderam, relativas às posições iniciais. Isso é feito mostrando, lado a lado com o número do carro, um número inteiro. Um valor positivo v ao lado do número de um carro no placar indica que o carro ganhou v posições relativas à inicial. Um valor negativo v indica que aquele carro perdeu v posições com relação à inicial. Um zero ao lado do número do carro no placar indica que o carro não ganhou nem perdeu posições com relação à posição inicial (o carro está na mesma posição em que começou).
+
+Nós estamos no meio do Grande Prêmio Sueco, na última volta do Campeonato Mundial. O diretor da corrida, Dr. Shoo Makra, está ficando preocupado: houveram reclamações de que o programa que controla o sistem do placar está com defeito, mostrando informações que não correspondem às verdadeiras posições da corrida.
+
+Dr. Shoo Makra pensou em uma maneira de verificar se o sistema do placar está funcionando corretamente. Dadas as informações mostradas atualmente no placar, ele quer reconstruir as posições iniciais da corrida. Se for possível reconstruir um grid de largada válido, ele planeja compará-lo com o verdadeiro grid de largada. Caso não seja possível construir um grid válido, o sistema do placar está certamente com problemas.
+
+Você poderia ajudar o Dr. Shoo Makra?
+Entrada
+
+A entrada contém diversos casos de teste. A primeira linha de um caso de teste contém um inteiro N indicando o número de carros na corrida (2 <= N <= 10^3). Cada uma das próximas N linhas contém dois inteiros C e P, separados por um espaço, representando respectivamente o número de um carro (1 <= C <= 10^4) e o número de posições que aquele carro ganhou ou perdeu com relação ao grid de largada (-10^6 <= P <= 10^6), de acordo com o sistema do placar. Todos os carros na corrida têm números diferentes. O final da entrada é indicado por uma linha contendo apenas um zero.
+Saída
+
+Para cada caso de teste na entrada, seu programa deve imprimir uma única linha, contendo o grid de largada reconstruído, com os números dos carros separados por espaços simples. Se não for possível reconstruir um grid de largada válido, a linha deve conter apenas o valor -1.
+
+Exemplo de entrada 4 1 0 3 1 2 -1 4 0 4 22 1 9 1 13 0 21 -2 3 19 1 9 -345 17 0 7 2 2 8 0 5 -2 7 1 1 1 9 1 3 -3 0
+
+Saída para o exemplo de entrada 1 2 3 4 -1 -1 5 8 2 3 7 1 9
+
+Adicionado por:	Wanderley Guimarães
+Data:	2009-01-18
+Tempo limite:	1s
+Tamanho do fonte:	50000B
+Memory limit:	256MB
+Cluster: 	Pyramid (Intel Pentium III 733 MHz)
+Linguagem permitida:	Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL
+Origem:	Final Sul-Americana da Maratona de Programação da ACM 2008
+
+
+fonte: http://br.spoj.com/problems/POLEPOS/

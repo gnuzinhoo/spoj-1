@@ -1,0 +1,33 @@
+SPOJ Problem Set (sulamericana)
+3747. Encolhendo Polígonos
+Problema: POLIGONO
+
+Um polígono é dito inscrito em um círculo quando todos seus vértices estão naquele círculo. Nesse problema você receberá um polígono inscrito em um círculo, e você deve determinar o número mínimo de vértices que devem ser removidos para transformar o polígono dado em um polígono regular, i.e., um polígono que é equiângular (todos ângulos são congruentes) e equilateral (todos lados têm o mesmo comprimento).
+
+Quando você remove um vértice v você primeiro remove o vértice e os segmentos de reta conectando-o aos seus vértices adjacentes w1 e w2, e então você cria um novo segmento de reta conectando w1 e w2. A figura (a) abaixo ilustra um polígono inscrito em um círculo, com dez vértices, e a figura (b) mostra um pentágono (polígono regular com cinco lados) formado ao remover cinco vértices do polígono em (a).
+
+Nesse problema consideraremos que qualquer polígono deve ter pelo menos três lados.
+Entrada
+
+A entrada contém diversos casos de teste. A primeira linha de um caso de teste contém um inteiro N indicando o número de vértices do polígono inscrito (3 <= N <= 10^4). A segunda linha contém N inteiros Xi separados por espaços (1 <= Xi <= 10^3 para 0 <= i <= N - 1). Cada Xi representa o comprimento do arco definido no círculo circunscrito, no sentido horário, pelos vértices i e (i + 1) mód N. Lembre-se que um arco é um segmento da circunferência de um círculo; não o confunda com coda, que é um segmento de linha cujos extremos ambos estão no círculo.
+
+O final da entrada é indicado por uma linha contendo apenas um zero.
+Saída
+
+Para cada caso de teste, seu programa deve imprimir uma única linha, contendo o número mínimo de vértices que precisam ser removidos do polígono dado para formar um polígono regular. Se não for possível formar um polígono regular, a linha deve conter apenas o valor -1.
+
+Exemplo de entrada 3 1000 1000 1000 6 1 2 3 1 2 3 3 1 1 2 10 10 40 20 30 30 10 10 50 24 26 0
+
+Saída para o exemplo de entrada 0 2 -1 5
+
+Adicionado por:	Wanderley Guimarães
+Data:	2009-01-18
+Tempo limite:	2s
+Tamanho do fonte:	50000B
+Memory limit:	256MB
+Cluster: 	Pyramid (Intel Pentium III 733 MHz)
+Linguagem permitida:	Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL
+Origem:	Final Sul-Americana da Maratona de Programação da ACM 2008
+
+
+fonte: http://br.spoj.com/problems/POLIGONO/
