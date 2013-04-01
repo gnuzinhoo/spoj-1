@@ -1,0 +1,45 @@
+SPOJ Problem Set (obi)
+3828. Primo
+Problema: PRIMO 
+
+
+Tarefa
+Dado um inteiro N, verifique se N é primo.
+
+Entrada
+A entrada é composta por um único caso de teste, composto por uma única linha que contém o inteiro N.
+
+Saída
+Seu programa deve produzir uma única linha, contendo a palavra "sim", se N for primo, e "nao", caso contrário (note a ausência de acentuação).
+
+Restrições
+|N| < 231 
+Exemplo
+Entrada
+7
+
+Saída
+sim
+
+Entrada
+10
+
+Saída
+nao
+
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2009-02-07 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Treino para OBI de 2006 - Fábio Moreira & Daniel Fleischman 
+
+--------------------------------------------------------------------------------
+
+
+fonte: http://br.spoj.com/problems/PRIMO/
