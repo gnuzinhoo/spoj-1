@@ -1,0 +1,49 @@
+SPOJ Problem Set (obi)
+3829. Quadrados
+Problema: QUADRAD2 
+
+
+Dado um inteiro N, determine quanto vale N2.
+
+Entrada
+A entrada é composta por um único caso de teste, composto por uma única linha que contém o inteiro N. 
+
+Saída
+Seu programa deve produzir uma única linha, contendo o valor de N2. 
+
+Restrições
+|N| = 10000 
+Exemplo
+Entrada
+1
+
+Saída
+1
+
+Entrada
+4
+
+Saída
+16
+
+Entrada
+2
+
+Saída
+4
+
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2009-02-07 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Treino para OBI de 2006 - Fábio Moreira & Daniel Fleischman 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/QUADRAD2/
