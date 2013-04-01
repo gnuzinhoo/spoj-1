@@ -20,7 +20,8 @@
       } 
       if (capacidade[vertice] >= C) {
          total++; 
-      }else { 
+      }
+      else { 
          capacidade[pai] += capacidade[vertice]; 
       } 
       return 0; 
