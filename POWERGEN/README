@@ -1,0 +1,58 @@
+SPOJ Problem Set (sulamericana)
+3598. Geração de energia
+Problema: POWERGEN 
+
+
+A demanda por eletricidade tem crescido rapidamente no país nos anos recentes, e há projeções de que esse crescimento se tornará mais rápido nos próximos vinte anos. Para cobrir este acréscimo na demanda, o governo está planejando privatizar o setor de geração de energia elétrica do país, terminando o monopólio da companhia estatal, ICPC (Independent Circuit Power Corporation). 
+
+ICPC é proprietária de usinas de geração de energia (hidroelétrica e nuclear). As usinas da ICPC são conectadas por linhas de força que atravessam o país. Cada linha de força conecta duas usinas de energia distintas e é construída em uma linha reta. Uma caminho de força é uma seqüência de linhas de força l1, l2, ... , lm, em que cada linha de força li conecta diretamente as usinas pi-1 e pi, tais que duas linhas de força consecutivas li e li+1 são ligadas por uma usina de força pi. 
+
+As usinas de força foram construídas no decorrer de muitos anos, uma por vez, devido a restrições de orçamento. Também devido a restrições de orçamento, toda vez que uma usina de força era construída, somente uma nova linha de força era construída para integrar a nova usina ao sistema ICPC existente. A nova linha de força sempre ligava a usina de força recentemente construída à usina de força mais próxima já presente no sistema. Se mais de uma usina existia (isto é, se mais do que uma usina estava localizada à uma distância minima da nova usina), a usina mais antiga era escolhida. 
+
+No projeto de privatização, a meta é quebrar o sistema de geração de energia da ICPC em companhias menores, cada companhia sendo proprietária de um conjunto de usinas de força (Cada usina de força será pertecente a somente uma companhia). Após a privatização, a ICPC deixará de existir; somente as novas companhia possuirão usinas de força. A divisão das usinas de força entre as novas companhias deve obedecer às seguintes restrições: 
+
+
+A capacidade total de toda nova companhia deve ser de pelo menos C, onde C é o valor em MW (Mega Watts) decidido pelo governo. A capacidade total de um conjunto de usinas de força é a soma das capacidades de usinas escolhidas; 
+Caminhos de força entre duas usinas devem pertencentes à uma nova companhia devem incluir somentes usinas pertencentes à essa nova companhia. Você foi contratado pela ICPC para determinar qual é o maior número de companhias que pode ser criada no processo de privatização. 
+
+Entrada
+A entrada contém varios casos de teste. A primeira linha de um caso de teste contém dois inteiros N e C indicando respectivamente o no número total de usinas de força pertencentes à ICPC (1 <= N <= 10000) e a capacidade minima total, em MW, que toda companhia deve ter (1 <= C <= 10000). As usinas de força são identificadas por inteiros de 1 até N; a usina 1 foi a primeira a ser construída; a usina 2 foi a segunda a ser construída, e assim por diante. Cada uma das próximas N linhas descreve uma usina de força; a primeira linha descreve a usina de força 1, a segunda linha descreve a usina de força 2, e assim por diante. Cada descrição consiste de três inteiros X, Y e P, onde (X,Y) é a localização da usina (0<=X<=1000 e 0<=Y<=1000) e P é a capacidade da usina (1<=P<=1000). As usinas foram construídas em diferentes localizações (isto é, não há duas usinas com a mesmo localização). O fim da entrada é indicado por N=C=0. 
+
+Saída
+Para cada caso de teste na entrada seu programa deve produzir uma linha de saída, contendo somente um inteiro: o maior número de novas companhias que podem ser criadas no processo de privatização. 
+
+
+Exemplo de entrada 
+2 22 
+0 0 20 
+10 20 30 
+4 430 
+10 20 100 
+20 10 400 
+50 10 50 
+25 25 500 
+3 100 
+10 10 33 
+0 10 33 
+10 0 33 
+0 0
+
+Exemplo de saída 
+1 
+2 
+0
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-12-27 
+Tempo limite: 6s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Final Sul-Americana da Maratona de Programação da ACM 2006 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/POWERGEN/
