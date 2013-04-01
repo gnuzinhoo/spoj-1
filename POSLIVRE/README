@@ -1,0 +1,52 @@
+SPOJ Problem Set (seletivas)
+1885. Posições Livres
+Problema: POSLIVRE 
+
+
+Escreva um programa que, dado um tabuleiro e uma lista de sub-partes retangulares do tabuleiro, retorna o número de posições que não pertencem a nenhuma sub-parte. 
+
+Entrada
+A entrada consiste de uma série de conjuntos de teste separados por linhas em branco. Um conjunto de teste começa com uma linha com três números W, H e N, indicando, respectivamente, a largura, a altura e o número de sub-partes do tabuleiro. Estes valores satisfazem as seguintes restrições: 1 = W, H = 500 e 0 = N = 99. Seguem N linhas, compostas de quatro inteiros X1, Y1, X2 e Y2, tais que (X1, Y1) e (X2, Y2) são as posições de dois cantos opostos de uma sub-parte. Estes valores satisfazem as seguintes restrições: 1 = X1, X2 = W e 1 = Y1, Y2 = H. O fim da entrada é acontece quando temos W=H=N=0. Esta última entrada não deve ser considerada como um conjunto de teste. 
+
+Saída
+O programa deve imprimir um resultado por linha, seguindo o formato descrito no exemplo de saída. 
+
+Exemplo
+Entrada:
+1 1 1
+1 1 1 1
+
+2 2 2
+1 1 1 2
+1 1 2 1
+
+493 182 3
+349 148 363 146
+241 123 443 147
+303 124 293 17
+
+0 0 0
+
+Saída
+There is no empty spots.
+There is one empty spot.
+There are 83470 empty spots.
+
+
+
+
+Autor do Problema: David Déharbe 
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2007-10-11 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Segunda Seletiva para Maratona de Programacao UFRN - 2004 
+
+--------------------------------------------------------------------------------
+
+
+fonte:  http://br.spoj.com/problems/POSLIVRE/
