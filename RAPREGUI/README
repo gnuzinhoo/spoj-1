@@ -1,0 +1,63 @@
+SPOJ Problem Set (sulamericana)
+3593. A rã saltadora preguiçosa
+Problema: RAPREGUI 
+
+
+Sr. Rã vive em um pântano em forma de grade retangular, composto de células de mesmo tamanho, algumas delas são secas, outras são somente lugares alagados. Sr. Rã vive em uma célula seca e pode saltar somente de uma célula seca para outra célula seca em seus passeios pelo pântano. 
+
+Sr. Rã quer visitar sua namorada, Sra. Sapo, que também vive em uma célula seca no mesmo pântano. Mas Sr. Rã é preguiçoso, e quer gastar a menor quantidade de energia em seu caminho "saltante" até a casa da Sra. Sapo. Sr. Rã sabe quanta energia gasta em qualquer um de seus saltos. Para cada salto simples, Sr. Rã usa a figura a seguir para determinar quais são as possíveis células alvo de sua posição atual (a celula marcada com F), e a quantidade de energia correspondente no salto, em calorias. Qualquer outra célula é inatíngivel da posição atual de Sr. Rã com um salto simples.
+
+
+7  6  5  6  7  
+6  3  2  3  6  
+5  2  F  2  5  
+6  3  2  3  6  
+7  6  5  6  7  
+
+Sua tarefa é determinar a quantidade minima de energia que Sr. Rã precisa gastar para ir de sua casa para a casa da Sra. Sapo. 
+
+Entrada 
+A entrada contém varios casos de teste. A primeira linha de um caso de teste contém dois inteiros, C e R, indicando respectivamente o numero de colunas e linhas do pântano (1<=C,R<=1000). A segunda linha de um caso de teste contem quatro inteiros Cf, Rf, Ct, e Rt, onde (Cf,Rf) especifica a localização da casa do Sr. Rã e (Ct, Rt) especifica a localização da casa da Sra. Sapo. A terceira linha de um caso de teste contém um inteiro W (0<=W<=1000) indicando o número de lugares alagados no pântano. Cada uma das próximas W linhas contém quatro inteiros C1, R1, C2, e R2(1<=C1<=C2<=C e 1<=R1<=R2<=R) descrevendo um lugar retangular alagado contendo células cujas coordenadas (x,y) são tais que C1<=x<=C2 e R1<=y<=R2. O fim da entrada é indicado por C=R=0. 
+
+Saída
+Para cada caso de teste na entrada, seu programa deve produzir uma linha de saída, contendo o mínimo de calorias consumidas pelo Sr. Rã para ir de sua casa para a casa da Sra. Sapo. Se não houver como o Sr. Rã chegar até a casa da Sra. Sapo, seu programa deve imprimir 'impossible'.
+
+Exemplo de entrada
+4 4
+1 1 4 2
+2
+2 1 3 3
+4 3 4 4
+4 4
+1 1 4 2
+1
+2 1 3 4
+7 6
+4 2 7 6
+5
+4 1 7 1
+5 1 5 5
+2 4 3 4
+7 5 7 5
+6 6 6 6
+0 0
+
+Exemplo de saída
+14
+impossible
+12
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-12-27 
+Tempo limite: 6s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Final Sul-Americana da Maratona de Programação da ACM 2006 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/RAPREGUI/
