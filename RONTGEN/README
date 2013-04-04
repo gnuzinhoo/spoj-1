@@ -1,0 +1,58 @@
+SPOJ Problem Set (seletivas)
+3093. Sequências de Röntgen
+Problema: RONTGEN 
+
+
+Wilhelm Conrad Röntgen foi um físico alemão que viveu no final do século XIX e início do século XX. Suas experiências em radiação eletromagnéticas renderam a ele o primeiro prêmio Nobel em Física, outorgado em 1901. Sua principal descoberta foi a existência do "raio X" e seu uso em aplicações médicas. Em 22 de dezembro de 1895, Röntgen fez um raio X da mão de sua esposa (com um anel em um dos dedos). A descoberta do raio X causou grande alvoroço na época e já em 1896 jornais europeus noticiavam a invenção e as grandes possibilidades de enxergar por dentro dos corpos sem a necessidade de cortá-los. A morte de Röntgen, causada por um certo tipo de câncer, é atribuída às radiações constantes a que esteve exposto durante suas pesquisas científicas.
+
+Röntgen começou a desconfiar da existência de radiações invisíveis quando, nas suas pesquisas, era capaz de medir alterações consideráveis na fluorescência dos objetos quando colocados num tubo de Lenard que era submetido a uma corrente elétrica. Os estudos de Röntgen foram tão precisos que ele pôde inclusive gerar a seqüência que era observada no tubo de Lenard em cada instante de tempo. A fluorescência observada dependia da intensidade da corrente (X) e do tempo em que o tubo era submetido à corrente (Y). Röntgen percebeu que dada a primeira seqüência, a próxima podia ser obtida descrevendo os números da seqüência anterior. Por exemplo: se a primeira seqüência for 2 então a próxima é 12 (ou seja, a seqüência anterior é formada por "um 2"), a seguinte 1112 (ou seja, a seqüência anterior é formada por um 1 e um 2), 3112 (ou seja, a seqüência anterior é formada por três 1 e um 2), e assim por diante.
+
+Além de um cientista brilhante, Röntgen era extremamente organizado. Ele guardava todos os registros de seus experimentos. Infelizmente, com o tempo algumas seqüências foram danificadas e outras perdidas. Sua tarefa é dada uma seqüência, determinar as próximas K seqüências do experimento.
+
+Entrada
+Cada instância é composta por uma linha contendo a primeira seqüência do experimento, formada por não mais de 1000 caracteres de 0 a 9, e o número K de seqüências que desejamos gerar (1 = K = 50), respectivamente.
+
+Saída
+Para cada instância, imprima a seqüência dada na entrada seguida de K linhas contendo as seqüências na ordem que foram geradas. As seqüências geradas não terão mais do que 2000000 caracteres.
+
+Após cada instância imprima uma linha em branco.
+
+Exemplo de entrada
+3
+2 5
+99 3
+000123 3
+
+Exemplo de saída
+2
+12
+1112
+3112
+132112
+1113122112
+
+99
+29
+1219
+11121119
+
+000123
+30111213
+131031121113
+111311101321123113
+
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-10-01 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Primeira Seletiva para Maratona de Programacao IME-USP - 2008 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/RONTGEN/
