@@ -1,0 +1,60 @@
+SPOJ Problem Set (seletivas)
+2838. Brincadeira das Tentativas
+Problema: TENTA 
+
+
+Cansados de brincar de bafo, Aldo e Beto inventaram uma nova brincadeira: um deles escolhe algumas de suas figurinhas, coloca-as em uma ordem qualquer e não a mostra para o outro, apenas informando quais figurinhas foram selecionadas. O outro, então, deve tentar adivinhar em qual ordem as figurinhas estão. 
+
+Após algumas rodadas da brincadeira, eles perceberam que a tarefa de tentar adivinhar a ordem das figurinhas pode ser bastante custosa, especialmente se o número de figurinhas for grande. Perder-se nas tentativas, esquecendo de tentar algumas opções e tentando outras mais de uma vez, não é nada difícil. 
+
+Querendo dar uma de esperto, Aldo teve a idéia de criar um programa de computador que dê, para as figurinhas selecionadas, todas as possibilidades de ordenação daquelas. Porém, como Aldo não sabe programar, ele pede que você faça tal programa. 
+
+Entrada
+A entrada é composta por vários casos de teste, um por linha. Um caso de teste é iniciado com um número inteiro n (1 <= n <= 8), indicando a quantidade de figurinhas selecionadas. A seguir, são dados n números inteiros distintos, correspondentes aos números das figurinhas selecionadas. Cada número de figurinha é tal que seu valor absoluto é menor que 1000000000. 
+
+A entrada termina quando n = 0, caso que não deve ser processado. 
+
+Saída
+Para cada caso de teste, seu programa deve imprimir uma lista de possibilidades de ordenação das figurinhas. Cada possibilidade de ordenação deve estar em uma linha, na qual devem ser impressos os números das figurinhas, na ordem correspondente, com exatamente um espaço entre cada número. 
+
+Imprima as possibilidades de ordenação em ordem lexicográfica. Por esta ordem, uma possibilidade de ordenação a1, ..., an deve ser impressa antes de outra b1, ..., bn se, para um determinado k (1 <= k <= n), temos o seguinte: 
+
+ai = bi, para todo i < k (i > 0); e 
+ak < bk. 
+Deixe uma linha em branco entre as saídas de cada caso de teste. 
+
+Exemplo
+Entrada:
+3 10 20 30
+2 1 2
+2 2 1
+0
+
+Saída:
+10 20 30
+10 30 20
+20 10 30
+20 30 10
+30 10 20
+30 20 10
+
+1 2
+2 1
+
+1 2
+2 1
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-07-08 
+Tempo limite: 3s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Primeira prova de TEP - 2008/1 - UFRJ 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/TENTA/
