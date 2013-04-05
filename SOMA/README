@@ -1,0 +1,48 @@
+SPOJ Problem Set (obi)
+3830. Soma
+Problema: SOMA 
+
+
+Dada uma lista de N inteiros, encontre a soma de todos eles.
+
+Entrada
+A entrada é composta de um único caso de teste. A primeira linha contém um inteiro positivo N. As N linhas seguintes contêm cada uma um inteiro X, representando os N números a serem somados.
+
+Saída
+Seu programa deve produzir uma única linha na saída, contendo a soma de todos os N inteiros.
+
+Restrições
+0 = N = 50 
+|X| = 5000 
+Exemplo
+Entrada
+2
+2
+3
+
+Saída
+5
+
+Entrada
+3
+1
+5
+3
+
+Saída
+9
+
+
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2009-02-07 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Treino para OBI de 2006 - Fábio Moreira & Daniel Fleischman 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/SOMA/
