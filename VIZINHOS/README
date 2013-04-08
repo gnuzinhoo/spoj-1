@@ -1,0 +1,50 @@
+SPOJ Problem Set (seletivas)
+2843. Meus Queridos Vizinhos
+Problema: VIZINHOS 
+
+
+Manuel é um português que é vegetariano e não gosta muito dos seus vizinhos porque todos eles estão sempre fazendo churrascos e a fumaça do churrasco vai para dentro da sua casa. 
+
+Agora Manuel decidiu se mudar e ele quer ir para um novo lugar com tão poucos vizinhos quanto possível. Então ele pediu a sua ajuda para escrever um programa para determinar o melhor lugar onde ele poderia viver em paz e sem a fumaça do churrasco. 
+
+Entrada
+A primeira linha da entrada é N = 30 que indica o número de casos de teste. Cada caso de teste consiste de um número P, onde 2 = P = 1000, que indica o número de lugares onde Manuel pode viver, cada lugar é numerado de 1 até P. Há então P linhas indicando os vizinhos de cada lugar, cada vizinho é separado por exatamente um espaço. Cada lugar tem no mínimo 1 vizinho e no máximo P - 1 vizinhos, visto que Manuel não pode ser um vizinho dele mesmo. Para este problema, se P1 tem P2 como seu vizinho não significa que P2 tem P1 como seu vizinho. 
+
+Cada caso de teste é separado por uma linha em branco. 
+
+Saída
+Para cada caso de teste você deve imprimir o lugar que possui o número mínimo de vizinhos. Se há mais do que um lugar então você deve imprimir todos os lugares separados por uma espaço e ordenados pelos seus índices, os índices menores devem aparecer primeiro. 
+
+Exemplo de Entrada
+2
+3
+2
+1 3
+2 1
+
+4
+2
+3
+1 4 2
+2 1 3
+
+Exemplo de Saída
+1
+1 2
+
+
+--------------------------------------------------------------------------------
+Autor do Problema: Sérgio Queiroz de Medeiros 
+--------------------------------------------------------------------------------
+Adicionado por: Wanderley Guimarães 
+Data: 2008-07-09 
+Tempo limite: 1s  
+Tamanho do fonte: 50000B 
+Memory limit: 256MB 
+Cluster: Pyramid (Intel Pentium III 733 MHz)  
+Linguagem permitida: Todas exceto: AWK CLOJ ERL F# GO JS NODEJS PERL 6 PYTH 3.2.3 n SCALA SED TCL  
+Origem: Segunda Seletiva para Maratona de Programacao UFRN - 2005 
+
+--------------------------------------------------------------------------------
+
+fonte: http://br.spoj.com/problems/VIZINHOS/ 
